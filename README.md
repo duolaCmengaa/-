@@ -21,8 +21,6 @@
 
 ## 文件存放:
 
-2. 使用列表项来表示每个文件或目录：
-
 ```plaintext
 - Para_seeking.py
 - readme.md
@@ -56,7 +54,7 @@
     - rmsprop.py
     - sgd.py
     - __init__.py
-
+```
 
 ## 模型训练部分：
 我实现了一个具有两层隐藏层的三层神经网络
