@@ -16,10 +16,12 @@
 
 ## 准备:
 
-因为download_use_data.py代码会自动前往https://github.com/zalandoresearch/fashion-mnist下载数据集，所以不需要提前下载数据集。
-我们只需要下载.py文件和result文件夹内的best_model文件夹内的模型权重和保存的loss，accuracy文件就可以正常完成模型的训练和测试部分。其中，模型权重我还存放到了网盘https://drive.google.com/drive/folders/1EkDHokPg4ViE_z0RDXWBO-efSWoAT9Pt?usp=drive_link，需要可以自行下载
+因为download_use_data.py代码会自动前往https://github.com/zalandoresearch/fashion-mnist
+下载数据集，所以不需要提前下载数据集。
+我们只需要下载.py文件和result文件夹内的best_model文件夹内的模型权重和保存的loss，accuracy文件就可以正常完成模型的训练和测试部分。其中，模型权重我还存放到了网盘https://drive.google.com/drive/folders/1EkDHokPg4ViE_z0RDXWBO-efSWoAT9Pt?usp=drive_link
+，需要可以自行下载
 
-## 文件存放:
+## 文件存放目录结构:
 
 ```plaintext
 - download_use_data.py
