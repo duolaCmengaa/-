@@ -20,27 +20,38 @@
 我们只需要下载.py文件和result文件夹内的best_model文件夹内的模型权重和保存的loss，accuracy文件就可以正常完成模型的训练和测试部分。其中，模型权重我还存放到了网盘https://drive.google.com/drive/folders/1EkDHokPg4ViE_z0RDXWBO-efSWoAT9Pt?usp=drive_link，需要可以自行下载
 
 ## 文件存放:
-project/
-├── README.md
-├── docs/
-│   ├── index.md
-│   └── images/
-│       ├── diagram.png
-│       └── logo.png
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── example/
-│   │   │           └── MyApp.java
-│   │   └── resources/
-│   │       └── config.properties
-│   └── test/
-│       └── java/
-│           └── com/
-│               └── example/
-│                   └── MyAppTest.java
-└── LICENSE
+|-- Para_seeking.py
+|-- readme.md
+|-- report.pdf
+|-- router.py
+|-- 可视化.ipynb
+|-- MNIST
+|   |-- param.npz
+|   |-- plotinfo.npz
+|   |-- record.txt
+|   |-- testset.npz
+|   |-- trainset.npz
+|-- package
+|   |-- draw.py
+|   |-- net.py
+|   |-- parameter.py
+|   |-- __init__.py
+|   |-- layers
+|   |   |-- activation.py
+|   |   |-- batchnorm.py
+|   |   |-- dropout.py
+|   |   |-- layer.py
+|   |   |-- linear.py
+|   |   |-- __init__.py
+|   |-- loss
+|   |   |-- celoss.py
+|   |   |-- mseloss.py
+|   |   |-- __init__.py
+|   |-- optim
+|   |   |-- momentum.py
+|   |   |-- rmsprop.py
+|   |   |-- sgd.py
+|   |   |-- __init__.py
 
 ## 模型训练部分：
 我实现了一个具有两层隐藏层的三层神经网络
