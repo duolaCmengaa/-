@@ -22,38 +22,42 @@
 ## 文件存放:
 
 ```plaintext
-- Para_seeking.py
-- readme.md
-- report.pdf
+- download_use_data.py
+- easy_train.py
+- find_best_model.py
 - router.py
-- 可视化.ipynb
-- MNIST
-  - param.npz
-  - plotinfo.npz
-  - record.txt
-  - testset.npz
-  - trainset.npz
-- package
-  - draw.py
-  - net.py
-  - parameter.py
-  - __init__.py
-  - layers
-    - activation.py
-    - batchnorm.py
-    - dropout.py
-    - layer.py
-    - linear.py
-    - __init__.py
-  - loss
-    - celoss.py
-    - mseloss.py
-    - __init__.py
-  - optim
-    - momentum.py
-    - rmsprop.py
-    - sgd.py
-    - __init__.py
+- function1.py
+- model1.py
+- plot_loss_accuracy.py
+- test1.py
+- visualization_parameters.py
+- result
+  - best_model
+    - model.npy
+    - trainloss.json
+    - val_accuracy.json
+    - validlosses.json
+  - easy_train_model
+    - model.npy
+    - trainloss.json
+    - val_accuracy.json
+    - validlosses.json
+  - pictures
+    - find_best_learning_rate.png
+    - find_best_regularization_parameter.png
+    - find_hidden0_accuracy.png
+    - find_hidden1_accuracy.png
+    - test_accuracy.png
+    - trainloss.png
+    - validloss.png
+    - orign.png
+    - layer1_biases_histogram.png
+    - layer1_weights_histogram.png
+    - layer1_weights_visualization.png
+    - layer2_biases_histogram.png
+    - layer2_weights_histogram.png
+    - layer3_biases_histogram.png
+    - layer3_weights_histogram.png
 ```
 
 ## 模型训练部分：
