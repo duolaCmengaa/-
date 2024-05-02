@@ -67,18 +67,18 @@
 ## 模型训练部分：
 我实现了一个具有两层隐藏层的三层神经网络
 
-直接运行easy_train可以进行简单的训练，可以自定义隐藏层大小(hidden_layers)、激活函数类型(activation)，学习率(learningrate)，正则化强度(lambda1)，除此之外，还有一些其他的参数可以自定义，比如batch_size等等。运行后产生的模型权重,loss,accuracy,learningrates会自动保存到easy_train_model文件夹内
+直接运行easy_train可以进行简单的训练，可以自定义隐藏层大小(hidden_layers)、激活函数类型(activation)，学习率(learningrate)，正则化强度(lambda1)，除此之外，还有一些其他的参数可以自定义，比如batch_size等等。运行后产生的模型权重,loss,accuracy,learningrates会自动保存到easy_train_model文件夹内，文件夹会自动生成，不需要手动进行创建，下面同理。
 
 ## 参数查找部分：
 
-直接运行find_best_model.py文件可以在候选的一些学习率、两层隐藏层大小、正则化强度，激活函数类型等超参数中进行训练，找到最优的超参数。
+直接运行find_best_model.py文件可以在候选的一些学习率、两层隐藏层大小、正则化强度，激活函数类型等超参数中进行训练，找到最优的超参数。找到各自的最好的超参数后会自动进行训练，会将权重文件保存到result文件夹内的best_model。
 
 ## 测试部分：
 
 下载好文件夹best_model以及里面存放的文件模型权重部分(model.npy)，训练集loss(trainloss.json)，验证集loss(validlosses.json)，记录的学习率(learningrates.json)以及验证集的准确率(val_accuracy.json)，并将best_model文件夹放到result文件夹里面，最后运行test1.py就可以得到训练集准确率，验证集准确率和测试集准确率。
 
 ## 绘制loss曲线和accuracy曲线部分：
-下载好测试部分所下载的文件，并放到正确的路径，直接运行plot_loss_accuracy.py即可
+下载好测试部分所下载的文件，并放到正确的路径，直接运行plot_loss_accuracy.py即可，图片会自动保存到result文件夹内的pictures文件夹内。
 
 ## 模型网络参数的可视化部分：
-下载好模型权重部分(model.npy),放置到正确的路径，直接运行visualization_parameters.py即可
+下载好模型权重部分(model.npy),放置到正确的路径，直接运行visualization_parameters.py即可，图片会自动保存到result文件夹内的pictures文件夹内。
