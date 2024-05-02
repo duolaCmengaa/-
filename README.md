@@ -24,6 +24,8 @@
 ## 文件存放目录结构:
 
 ```plaintext
+- data
+  - fashion
 - download_use_data.py
 - easy_train.py
 - find_best_model.py
