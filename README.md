@@ -82,3 +82,9 @@
 
 ## 模型网络参数的可视化部分：
 下载好模型权重部分(model.npy),放置到正确的路径，直接运行visualization_parameters.py即可，图片会自动保存到result文件夹内的pictures文件夹内。
+
+## 其他的文件说明：
+function1.py包含了定义的一些模型所需要的基本函数
+
+model1.py是模型的基本结构
+
